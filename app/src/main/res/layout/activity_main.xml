@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:src="@drawable/meditation"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make meditation a \nhabit you love"
+        android:layout_below="@+id/imageview"
+        android:id="@+id/tv"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Continue with Google"
+        android:background="@drawable/buttonbg"
+        android:id="@+id/googleBtn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/googleBtn"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Continue As Guest"
+        android:background="@drawable/buttonbg"
+        android:id="@+id/guestBtn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="By creating an account you agree to our Terms of \n Service and Privacy Policy"
+        android:layout_below="@+id/guestBtn"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

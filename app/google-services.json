@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "142749262846",
+    "firebase_url": "https://buddy-f2aa1.firebaseio.com",
+    "project_id": "buddy-f2aa1",
+    "storage_bucket": "buddy-f2aa1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142749262846:android:4430a4afbfc55e242a16af",
+        "android_client_info": {
+          "package_name": "com.example.atom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142749262846-5rbpua0sf7uapdq59ja12ubagssb55ai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP5L0Zl7Ef49t9-chKlZW-K9lLeIIeiao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142749262846-5rbpua0sf7uapdq59ja12ubagssb55ai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
